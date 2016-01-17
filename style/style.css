@@ -1,0 +1,212 @@
+/*CSS Reset Start*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*CSS Reset End*/
+
+@font-face {
+    font-family: 'Manifesto'; /*a name to be used later*/
+    src: url("../fonts/MANIFESTO.ttf");
+}
+
+@font-face {
+	font-family: 'cabin-bold';
+	src: url("../fonts/Cabin-Bold.otf");
+}
+
+@font-face {
+	font-family: 'azoft';
+	src: url("../fonts/azoft-sans.ttf");
+}
+
+@font-face {
+	font-family: 'azoft-bold';
+	src: url("../fonts/azoft-sans-bold.ttf");
+}
+
+* {
+	list-style: none;
+	text-decoration: none;
+}
+
+body {
+	text-align: left;
+	background-color: #E6ECEA;
+}
+
+img {
+	margin: 0px;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'azoft';
+	color: #F13955;
+}
+
+h1 {
+	font-size: 70px;
+	padding-bottom: 15px;
+}
+
+h3 {
+	font-family: 'azoft-bold';
+	font-size: 22px;
+	color: #353535;
+}
+
+p {
+	color: #353535;
+	font-family: helvetica-bold;
+	font-size: 20px;
+	line-height: 130%;
+}
+
+.body {
+	margin-top: 50px;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header {
+	width: 60%;
+	height: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Manifesto';
+	overflow: hidden;
+}
+
+.header nav, ul, li {
+	float: left;
+	display: inline-block;
+	height: 100%;
+	font-size: 25px;
+ }
+
+.header ul {
+	padding-top: 2px;
+	display: flex;
+}
+
+.header li {
+	padding-left: 40px;
+ 	padding-right: 40px;
+ 	padding-top: 18px;
+ 	padding-bottom: 20px;
+}
+
+ .header a {
+ 	color: white;
+ }
+
+ .header .active, .header li:hover {
+ 	background-color: #F13955;
+ }
+
+.fullwidth {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+	background-color: #0A090F;
+}
+
+.searchbox input{
+	color: gray;
+    float: right;
+    border-radius: 14px;
+    margin-top: 14px;
+    padding-left: 24px;
+    padding-top: 3px;
+    height: 30px;
+    width: 172px;
+    border: none;
+    font-size: 23px;
+    background: white url(/images/search_icon.png) left center no-repeat;
+}
+
+#eminem_banner {
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: -5px;
+}
+
+.box {
+	margin-top: 20px;
+	background-color: white;
+	box-shadow: 0px 0px 4px gray;
+	width: 100%;
+
+}
+
+.box_image {
+	display: inline-block;
+	max-width: 30%;
+	
+}
+
+.box_image img {
+	max-width: 100%;
+	margin-bottom: -3px;
+}
+
+.box_text {
+	margin-left: 1%;
+	margin-top: 20px;
+	vertical-align: top;
+	display: inline-block;
+	width: 60%;
+}
+
+.box_text p {
+	padding-top: 10px;
+	line-height: 200%;
+}
